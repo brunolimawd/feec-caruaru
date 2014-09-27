@@ -1,0 +1,31 @@
+@font-face{
+	font-family: 'TrajanPro';
+	src: url('fonts/trajanpro-regular.eot');
+	src: url('fonts/trajanpro-regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+p:nth-child(2){color:#ff0000;font:400 22px 'TrajanPro', serif;}
+input[type="text"]{background: #ff0000;};
+input:checked{color:#00ff00;};
+p{color:#0000ff;}
+p::before{content:'';width:10px;height:10px;background:#ff0000;display:block;}
+
+
+button{
+	width: 100px;
+	height: 50px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 10px;
+	transition:all 1s;
+}
+
+button:hover{
+	background: #999999;
+	color:#ffffff;
+	width: 200px;
+}

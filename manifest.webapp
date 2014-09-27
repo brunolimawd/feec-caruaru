@@ -1,0 +1,26 @@
+{
+	"version": "0.0.1",
+	"name": "Instagram Feec",
+	"description": "App para o FEEC Lite Caruaru",
+	"launch_path": "/index.html",
+	"icons": {
+		"16": "/img/icon16x16.png",
+		"128": "/img/icon128x128.png"
+	},
+	"developer": {
+		"name": "Bruno Lima",
+		"url": "http://brunolima.io"
+	},
+	"type": "privileged",
+	"permissions":{
+		"geolocation":{
+			"description": "Pegar geolocalização"
+		},
+		"systemXHR":{
+			"description": "Pegar JSON de fora"
+		}
+	},
+	"installs_allowed_from":[
+		"*"
+	]
+}
